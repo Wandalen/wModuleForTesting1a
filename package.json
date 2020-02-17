@@ -35,7 +35,7 @@
     "wmodulefortesting1": ""
   },
   "devDependencies": {
-    "wTesting": "^1.0.272",
+    "wTesting": "alpha",
     "wmodulefortesting1a": "file:."
   },
   "keywords": [
