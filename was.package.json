@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting1a", 
-  "version" : "0.0.1", 
+  "version" : "0.0.2", 
   "engine" : "node >= 8.0.0", 
   "description" : "Module for testing. This module is test assets not intended to be used with another purpose.", 
   "author" : "Kostiantyn Wandalen <wanalen@willbe.so>", 
@@ -13,7 +13,11 @@
   "main" : "proto/dwtools/abase/l1/Include.s", 
   "files" : [ "proto/dwtools/abase/l1", "out" ], 
   "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" }, 
-  "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wModuleForTesting1a.git" }, 
+  "repository" : 
+  {
+    "type" : "git", 
+    "url" : "https://github.com/Wandalen/wModuleForTesting1a.git"
+  }, 
   "bugs" : 
   {
     "url" : "https://github.com/Wandalen/wModuleForTesting1a/issues"
