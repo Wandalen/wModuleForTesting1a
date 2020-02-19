@@ -116,7 +116,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: ../proto/dwtools/abase/l1/Include.s
+        path: ../proto/dwtools/abase/l2/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -126,13 +126,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l1/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l2/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l1/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l2/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -160,12 +160,12 @@ module:
           - ../proto
           - ../proto/dwtools
           - ../proto/dwtools/abase
-          - ../proto/dwtools/abase/l1
-          - ../proto/dwtools/abase/l1/Include.s
-          - ../proto/dwtools/abase/l1/l2
-          - ../proto/dwtools/abase/l1/l2/ModuleForTesting1a.s
-          - ../proto/dwtools/abase/l1.test
-          - ../proto/dwtools/abase/l1.test/ModuleForTesting1a.test.s
+          - ../proto/dwtools/abase/l2
+          - ../proto/dwtools/abase/l2/Include.s
+          - ../proto/dwtools/abase/l2/l2
+          - ../proto/dwtools/abase/l2/l2/ModuleForTesting1a.s
+          - ../proto/dwtools/abase/l2.test
+          - ../proto/dwtools/abase/l2.test/ModuleForTesting1a.test.s
     submodule:
       wTools:
         path: 'npm:///wTools'
@@ -915,7 +915,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: proto/dwtools/abase/l1/Include.s
+        path: proto/dwtools/abase/l2/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -925,13 +925,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l1/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l2/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l1/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l2/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
