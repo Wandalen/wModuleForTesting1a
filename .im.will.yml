@@ -1,7 +1,7 @@
 submodule :
 
   wModuleForTesting1 :
-    path : git+https:///github.com/Wandalen/wModuleForTesting1.git
+    path : git:///github.com/Wandalen/wModuleForTesting1.git
     enabled : 0
   # Self :
   #  path : hd://.
