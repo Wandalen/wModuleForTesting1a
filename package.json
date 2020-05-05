@@ -1,45 +1,28 @@
 {
-  "name": "wmodulefortesting1a",
-  "version": "0.0.39",
-  "engine": "node >= 8.0.0",
-  "description": "Module for testing. This module is test assets not intended to be used with another purpose.",
-  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
-  "license": "MIT",
-  "contributors": [
-    {
-      "name": "Kostiantyn Wandalen",
-      "email": "wanalen@willbe.so"
-    },
-    {
-      "name": "Kryvoruchko Dmytro",
-      "email": "dm.vict.kr@gmail.com"
-    }
+  "name" : "wmodulefortesting1a",
+  "version" : "0.0.43",
+  "engine" : "node >= 8.0.0",
+  "description" : "Module for testing. This module is test assets not intended to be used with another purpose.",
+  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "license" : "MIT",
+  "contributors" :
+  [
+    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" },
+    { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
   ],
-  "main": "proto/dwtools/abase/l2/testing1a/Include.s",
-  "files": [
-    "proto/dwtools/abase/l2/testing1a",
-    "out"
-  ],
-  "scripts": {
-    "test": "wtest .run proto/**",
-    "docgen": "wdocgen proto"
+  "main" : "proto/dwtools/abase/l2/Include.s",
+  "files" : [ "proto/dwtools/abase/l2", "out" ],
+  "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/Wandalen/wModuleForTesting1a.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wandalen/wModuleForTesting1a.git"
+  "bugs" :
+  {
+    "url" : "https://github.com/Wandalen/wModuleForTesting1a/issues"
   },
-  "bugs": {
-    "url": "https://github.com/Wandalen/wModuleForTesting1a/issues"
-  },
-  "dependencies": {
-    "wmodulefortesting1": "alpha"
-  },
-  "devDependencies": {
-    "wmodulefortesting1a": "file:.",
-    "wTesting": "alpha"
-  },
-  "keywords": [
-    "willbe",
-    "test"
-  ]
+  "dependencies" : { "wmodulefortesting1" : "alpha" },
+  "devDependencies" : { "wmodulefortesting1a" : "file:.", "wTesting" : "alpha" },
+  "keywords" : [ "willbe", "test" ]
 }
