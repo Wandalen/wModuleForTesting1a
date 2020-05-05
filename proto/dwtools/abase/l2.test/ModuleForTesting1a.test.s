@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  var _ = require( '../l2/Include.s' );
+  var _ = require( '../l2/testing1a/Include.s' );
 
   require( 'wTesting' );
 
@@ -17,7 +17,7 @@ if( typeof module !== 'undefined' )
 // test
 // --
 
-function trivial( test ) 
+function trivial( test )
 {
   test.case = 'square of positive numbers';
   var got = _.squareOfSum( 1, 2 );
