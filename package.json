@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting1a",
-  "version" : "0.0.62",
+  "version" : "0.0.63",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -11,7 +11,7 @@
     { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
   ],
   "main" : "proto/dwtools/testing/l2/testing1a/Include.s",
-  "files" : [ "proto/dwtools/testing/l2/testing1a", "proto/dwtools/Tools.s", "out" ],
+  "files" : [ "proto/dwtools/testing/l2/testing1a", "proto/dwtools/testing/Basic.s", "out" ],
   "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
   "repository" :
   {
@@ -22,7 +22,7 @@
   {
     "url" : "https://github.com/Wandalen/wModuleForTesting1a/issues"
   },
-  "dependencies" : { "wmodulefortesting1" : "alpha" },
-  "devDependencies" : { "wmodulefortesting1a" : "file:.", "wTesting" : "alpha" },
+  "dependencies" : { "wmodulefortesting1" : "gamma" },
+  "devDependencies" : { "wmodulefortesting1a" : "file:.", "wTesting" : "gamma" },
   "keywords" : [ "willbe", "test" ]
 }
