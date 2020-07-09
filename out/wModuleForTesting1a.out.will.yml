@@ -116,7 +116,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: ../proto/dwtools/testing/l2/testing1a/Include.s
+        path: ../proto/wtools/testing/l2/testing1a/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -126,13 +126,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/testing/l2/testing1a/Include.s'
+        path: '{path::out.*=1}/proto/wtools/testing/l2/testing1a/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/testing/l2/testing1a/Include.s'
+        path: '{path::out.*=1}/proto/wtools/testing/l2/testing1a/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -159,15 +159,15 @@ module:
         path:
           - ../proto
           - ../proto/Integration.test.s
-          - ../proto/dwtools
-          - ../proto/dwtools/testing
-          - ../proto/dwtools/testing/Basic.s
-          - ../proto/dwtools/testing/l2
-          - ../proto/dwtools/testing/l2/testing1a
-          - ../proto/dwtools/testing/l2/testing1a/Include.s
-          - ../proto/dwtools/testing/l2/testing1a/ModuleForTesting1a.s
-          - ../proto/dwtools/testing/l2.test
-          - ../proto/dwtools/testing/l2.test/ModuleForTesting1a.test.s
+          - ../proto/wtools
+          - ../proto/wtools/testing
+          - ../proto/wtools/testing/Basic.s
+          - ../proto/wtools/testing/l2
+          - ../proto/wtools/testing/l2/testing1a
+          - ../proto/wtools/testing/l2/testing1a/Include.s
+          - ../proto/wtools/testing/l2/testing1a/ModuleForTesting1a.s
+          - ../proto/wtools/testing/l2.test
+          - ../proto/wtools/testing/l2.test/ModuleForTesting1a.test.s
     submodule:
       ModuleForTesting1:
         path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/!alpha'
@@ -899,7 +899,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: proto/dwtools/testing/l2/testing1a/Include.s
+        path: proto/wtools/testing/l2/testing1a/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -909,13 +909,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/testing/l2/testing1a/Include.s'
+        path: '{path::out.*=1}/proto/wtools/testing/l2/testing1a/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/testing/l2/testing1a/Include.s'
+        path: '{path::out.*=1}/proto/wtools/testing/l2/testing1a/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
