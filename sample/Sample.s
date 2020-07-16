@@ -1,4 +1,4 @@
-var _ = require( '../' )
+let _ = require( '../' )
 
 var result = _.squareOfSum( 1, 2 );
 
