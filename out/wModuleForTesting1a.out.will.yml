@@ -1488,6 +1488,4 @@ module:
       ../.im.will.yml:
         hash: 89ff9604313aef1cc394e15952aa013e
         size: 5081
-      wModuleForTesting1a.out.will.yml:
-        hash: dd087d665efb2d041ab69db4e6616c1a
-        size: 38373
+      wModuleForTesting1a.out.will.yml: *ref_0
