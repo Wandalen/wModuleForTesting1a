@@ -1,28 +1,47 @@
 {
-  "name" : "wmodulefortesting1a",
-  "version" : "0.0.108",
-  "engine" : "node >= 10.0.0",
-  "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
-  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
-  "license" : "MIT",
-  "contributors" :
-  [
-    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
-    { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
+  "name": "wmodulefortesting1a",
+  "version": "0.0.109",
+  "engine": "node >= 10.0.0",
+  "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
+  "author": "Kostiantyn Wandalen <wanalen@01.school>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@01.school"
+    },
+    {
+      "name": "Kryvoruchko Dmytro",
+      "email": "dm.vict.kr@gmail.com"
+    }
   ],
-  "main" : "proto/wtools/testing/l2/testing1a/Include.s",
-  "files" : [ "proto/wtools/testing/l2/testing1a", "proto/wtools/testing/Basic.s", "out" ],
-  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/Wandalen/wModuleForTesting1a.git"
+  "main": "proto/wtools/testing/l2/testing1a/Include.s",
+  "files": [
+    "proto/wtools/testing/l2/testing1a",
+    "proto/wtools/testing/Basic.s",
+    "out"
+  ],
+  "scripts": {
+    "test": "wtest .run 'proto/**' rapidity:-3",
+    "docgen": "wdocgen proto"
   },
-  "bugs" :
-  {
-    "url" : "https://github.com/Wandalen/wModuleForTesting1a/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wModuleForTesting1a.git"
   },
-  "dependencies" : { "wmodulefortesting1" : "alpha" },
-  "devDependencies" : { "wmodulefortesting1a" : "file:.", "eslint" : "7.1.0", "wTesting" : "alpha" },
-  "keywords" : [ "willbe", "test" ]
+  "bugs": {
+    "url": "https://github.com/Wandalen/wModuleForTesting1a/issues"
+  },
+  "dependencies": {
+    "wmodulefortesting1": "alpha"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "wTesting": "alpha",
+    "wmodulefortesting1a": "file:."
+  },
+  "keywords": [
+    "willbe",
+    "test"
+  ]
 }
