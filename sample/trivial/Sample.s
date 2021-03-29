@@ -1,7 +1,4 @@
-if( typeof module !== 'undefined' )
-require( 'wmodulefortesting1a' );
-
-let _ = _global_._test_;
+let _ = require( 'wmodulefortesting1a' );
 
 var result = _.squareOfSum( 1, 2 );
 
