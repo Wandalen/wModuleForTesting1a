@@ -1,6 +1,6 @@
 {
   "name": "wmodulefortesting1a",
-  "version": "0.0.129",
+  "version": "0.0.130",
   "engine": "node >= 10.0.0",
   "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author": "Kostiantyn Wandalen <wanalen@01.school>",
@@ -19,7 +19,8 @@
   "files": [
     "proto/wtools/testing/l2/testing1a",
     "proto/wtools/testing/Basic.s",
-    "out"
+    "out",
+    "proto/node_modules"
   ],
   "scripts": {
     "test": "wtest .run 'proto/**' rapidity:-3",
@@ -37,8 +38,7 @@
   },
   "devDependencies": {
     "eslint": "7.1.0",
-    "wTesting": "delta",
-    "wmodulefortesting1a": "file:."
+    "wTesting": "delta"
   },
   "keywords": [
     "willbe",
