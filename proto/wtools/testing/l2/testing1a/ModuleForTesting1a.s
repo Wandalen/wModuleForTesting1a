@@ -3,7 +3,7 @@
 
 'use strict';
 
-let _ = require( '../../Basic.s' );
+const _ = require( '../../Basic.s' );
 
 // --
 // Routines
