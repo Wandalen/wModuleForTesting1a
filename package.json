@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting1a",
-  "version" : "0.0.147",
+  "version" : "0.0.148",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -22,7 +22,7 @@
   {
     "url" : "https://github.com/Wandalen/wModuleForTesting1a/issues"
   },
-  "dependencies" : { "wmodulefortesting1" : "gamma" },
-  "devDependencies" : { "eslint" : "7.1.0", "wTesting" : "gamma" },
+  "dependencies" : { "wmodulefortesting1" : "delta" },
+  "devDependencies" : { "eslint" : "7.1.0", "wTesting" : "delta" },
   "keywords" : [ "willbe", "test" ]
 }
