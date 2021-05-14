@@ -3,7 +3,7 @@
 
 'use strict';
 
-const _ = require( '../../Basic.s' );
+const _ = require( '../../Common.s' );
 
 // --
 // Routines
@@ -17,12 +17,16 @@ function squareOfSum()
   return result;
 }
 
+//
+
+Object.assign( _, { squareOfSum } );
+
 // --
 // export
 // --
 
 if( typeof module !== 'undefined' && module !== null )
-module[ 'exports' ].squareOfSum = squareOfSum;
+module[ 'exports' ] = _;
 
 })();
 
