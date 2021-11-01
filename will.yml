@@ -281,5 +281,5 @@ step:
       debug: release
 submodule:
   wModuleForTesting1:
-    path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/!alpha'
+    path: 'git+https:///github.com/Wandalen/wModuleForTesting1.git/!gamma'
     enabled: 0
